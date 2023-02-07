@@ -59,15 +59,15 @@ label {
     justify-content: space-around;
     align-items: center;
     text-decoration: none;
-    position: static, absolute;
+
 }
 
 .navbar-container .navbar___logo {
-    width: 80%;
+    width: 100%;
     justify-content: left;
     margin-left: 15px;
     align-items: center;
-    position: static, absolute;
+
 }
 
 .navbar-container .navbar___logo img {
@@ -117,43 +117,49 @@ a {
     background-image: url(/assets/img/banner.png);
     background-repeat: repeat;
     border-top: solid 10px yellow;
-
+    margin-top: 80px;
+    margin-bottom: 15px;
 }
 
+/* --------------------------Fin Hero----------- */
 
 .envios {
+    max-width: 1099px;
+    margin: 0 auto;
+    width: 95%;
+    height: 150px;
+    padding: 0;
     display: flex;
-    width: 100%;
-    height: 80px;
-
+    flex-direction: row;
+    row-gap: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #707070;
+    line-height: 1.5;
 }
 
 .envios a:hover {
     color: var(--verde);
 }
 
-.envios a {
-    width: 100%;
-    justify-content: start;
-    align-items: center;
-    margin: 0 auto;
-    color: #707070;
-    line-height: 1.5;
-    text-align: justify;
-    margin-bottom: 15px;
 
-}
 
 .envios .icon {
-    width: 80px;
+    font-size: 28px;
+
+    align-items: center;
 }
 
 .envios a p {
-
     text-align: justify;
     line-height: 1.2;
 }
 
+/* --------fin Envios-------- */
 .titulo__categorias {
     max-width: 1200px;
     margin: 0 auto;
@@ -236,7 +242,7 @@ a {
 
 .cards__container .card img:hover {
     transform: scale(1.1);
-    box-shadow: 2px 5px 25px;
+    box-shadow: 1px 4px 10px;
 }
 
 .main__container .cards__container .card h3 {
