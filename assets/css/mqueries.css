@@ -80,6 +80,7 @@
         align-items: center;
         text-decoration: none;
         position: absolute;
+        border-bottom: solid 2px var(--marron);
     }
 
     .navbar-container .lbl-menu {
@@ -392,6 +393,24 @@
         place-content: center;
     }
     .envios {
+        max-width: 550px;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        gap: 15px;
+        font-size: 10px;
+        margin-bottom: 35px;
+        text-align: justify;
+        margin-left: 15px;
+    }
+
+    .envios a {
+        margin: 5px;
+    }
+
+    .envios {
+        place-content: center;
         
     }
     .footer .grupo-1  p {
@@ -421,29 +440,22 @@
         background-repeat: no-repeat;
     }
 
-     /* .envios {
-        max-width: 560px;
-       width: 100%;
+    .envios {
+        max-width: 550px;
         margin: 0 auto;
-        width: 100vh;
-        padding: 0;
-        display:flex;
-        flex-direction: column;
-        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        gap: 15px;
         font-size: 10px;
-        margin: 25px;
-        margin-bottom: 50px;
-        align-content: center;
-    } 
-    .envios a p {
+        margin-bottom: 35px;
         text-align: justify;
-        line-height: 1.2;
-        margin-right: 15px;
-        font-size: 16px;
-        }
-        .envios .icons {
-            font-size: 10px;
-        } */
+        margin-left: 15px;
+    }
+
+    .envios a {
+        margin: 5px;
+    }
         .cards__container {
             max-width: 540px;
             width: 100%;
@@ -472,21 +484,22 @@
         height: 250px;
     }
 
-    /* .envios {
+    .envios {
         max-width: 550px;
         margin: 0 auto;
-        width: 100vh;
-        padding: 0;
-        display: grid;
-        grid-template-rows: auto;
-        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        gap: 15px;
         font-size: 10px;
         margin-bottom: 35px;
+        text-align: justify;
+        margin-left: 15px;
     }
 
     .envios a {
         margin: 5px;
-    } */
+    }
 
     .banner {
         margin: 0 auto;
