@@ -91,6 +91,7 @@ label {
     justify-content: space-around;
     align-items: center;
     text-decoration: none;
+    border-bottom: solid 2px var(--marron);
 
 }
 
